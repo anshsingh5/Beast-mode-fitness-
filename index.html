@@ -1,50 +1,126 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beast Mode Fitness</title>
 
 <style>
-body {
-  background: #111;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 40px;
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#0b0b0b;
+color:#fff;
 }
-
-h1 {
-  font-size: 40px;
-  font-weight: 900;
-  color: #ffcc00;
+header{
+background:#000;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:2px solid red;
 }
-
-p {
-  font-size: 20px;
-  margin-top: -10px;
+header h1{
+color:red;
+margin:0;
 }
-
-.button {
-  display: inline-block;
-  background: #25D366;
-  padding: 14px 25px;
-  margin-top: 25px;
-  color: white;
-  font-size: 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
+nav a{
+color:#fff;
+margin:0 10px;
+text-decoration:none;
+font-weight:bold;
+}
+.search-box{
+padding:20px;
+text-align:center;
+}
+.search-box input{
+width:80%;
+padding:12px;
+border-radius:5px;
+border:none;
+font-size:16px;
+}
+.section{
+padding:20px;
+}
+.card{
+background:#111;
+padding:15px;
+margin:15px 0;
+border-left:4px solid red;
+border-radius:6px;
+}
+.card h3{
+color:#ff3b3b;
+}
+button{
+padding:10px 15px;
+background:red;
+border:none;
+color:white;
+border-radius:5px;
+font-weight:bold;
+}
+footer{
+background:#000;
+text-align:center;
+padding:15px;
+border-top:2px solid red;
 }
 </style>
 </head>
 
 <body>
+
+<header>
 <h1>Beast Mode Fitness</h1>
-<p>Stronger Every Day 💪</p>
+<nav>
+<a href="#">Home</a>
+<a href="#">Exercises</a>
+<a href="#">BMI</a>
+<a href="#">Calories</a>
+</nav>
+</header>
 
-<a href="https://wa.me/917905383562" class="button">Message on WhatsApp</a>
+<div class="search-box">
+<h2>Search Exercise / Machine</h2>
+<input placeholder="Search in English / Hindi (Chest, छाती, Dumbbell...)">
+</div>
 
-<p style="margin-top:50px;">📍 Kanpur | Made for Fitness</p>
+<div class="section">
+<h2>🔥 Popular Exercises</h2>
+
+<div class="card">
+<h3>Push Ups (पुश अप्स)</h3>
+<p>Chest, Shoulder & Triceps workout. No equipment needed.</p>
+<button>Watch Video</button>
+</div>
+
+<div class="card">
+<h3>Squats (स्क्वैट्स)</h3>
+<p>Best for legs & strength. Can be done at home.</p>
+<button>Watch Video</button>
+</div>
+
+<div class="card">
+<h3>Dumbbell Curl</h3>
+<p>Biceps exercise using dumbbells.</p>
+<button>Watch Video</button>
+</div>
+</div>
+
+<div class="section">
+<h2>📏 BMI Calculator</h2>
+<div class="card">
+<p>Coming Soon (AdSense Friendly)</p>
+</div>
+</div>
+
+<footer>
+<p>© 2025 Beast Mode Fitness | Train Like a Beast 💪</p>
+</footer>
+
 </body>
 </html>
